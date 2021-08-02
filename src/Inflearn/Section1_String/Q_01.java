@@ -1,4 +1,4 @@
-package Section1_String;
+package Inflearn.Section1_String;
 
 import java.util.Scanner;
 //다 대문자로 바꿔버린대.. 대박..
