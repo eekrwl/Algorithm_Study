@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+//선택정렬
 public class Q_01 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -29,3 +30,19 @@ public class Q_01 {
         }
     }
 }
+
+/*
+public int[] solution(int n, int[] arr) {
+    for (int i = 0; i < n - 1; i++) {
+        int idx=i;
+        for (int j = i + 1; j < n; j++) {
+            if(arr[i]>arr[j])
+                idx=j;
+        }
+        int tmp=arr[i];
+        arr[i]=arr[idx];
+        arr[idx]=tmp;
+    }
+    return arr;
+}
+*/
