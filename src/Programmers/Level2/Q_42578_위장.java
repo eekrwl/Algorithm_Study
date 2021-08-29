@@ -1,3 +1,4 @@
+/*
 package Programmers.Level2;
 
 import org.w3c.dom.Node;
@@ -21,11 +22,13 @@ public class Q_42578_위장 {
         int[] cntArr=new int[kinds];
         int cnt=0;
         for(String x:hash.keySet()) cntArr[cnt++]=hash.get(x);
+*/
 /*
         boolean[][] calArr=new boolean[(int)Math.pow(2,kinds)][kinds];
         for (int i = 0; i < kinds; i++) {
 
-        }*/
+        }*//*
+
 
         int len=1;
         Node root=new Node(1);
@@ -52,3 +55,4 @@ class Node {
         rt=new Node(1);
     }
 }
+*/
